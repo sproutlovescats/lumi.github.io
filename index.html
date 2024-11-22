@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Gochi Hand' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+        <title>⠀</title>
+        <link rel="icon" href="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f4ab.svg">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+
+        <style>
+            .middle{margin-right: 300px; margin-left: 300px;}
+            p {text-align: center;padding-bottom: 35px; position: relative; top: 20px;font-family: 'Kalam';font-size: 22px;}
+            h1 {text-align: center; font-family: 'Gochi Hand';font-size: 30px; padding-bottom: 40px;}
+        </style>
+
+    </head>
+
+    <body>
+        <div class="main">
+
+            <div class='audio-container'>
+                <audio id="bgm">
+                <source src="bgm.mp3" type="audio/mp3">
+            </audio>
+            <button onclick="playAudioHalfVolume()" type="button">⠀ Play Music ⠀</button>
+            <script>
+                var x = document.getElementById("bgm");
+                function playAudioHalfVolume() {
+                    x.volume = 0.075;
+                    x.play();}
+                
+                function pauseAudio() { 
+                    x.pause(); } 
+            </script> 
+                <div class="secondaudio">
+                    <button onclick="pauseAudio()" type="button">⠀ Pause Music ⠀</button> 
+                    
+                </div>
+            </div>
+
+            <h1>for⠀lumi ⋆ ˚｡⋆୨୧˚ !!</h1>
+            <div class="middle">
+                <p>hi lumiiiii! you're my recipient to the encouragement-card-exchanging-thing :3</p>
+                <p>with our very first tourney coming up very soon, i want to say a few things; <b>as a player</b>, i feel as though you stepped out of your comfort zone to learn new things and be better. you have continually shown effort and improvement which i think is extremely impressive and rare.</p>
+
+                <p><b>as a friend</b>, of course, i don't know you like the back of my hand. but even then, i think that you are a very sweet person. i'm very happy to have you as my teammate and i can't wait to win (or lose) every game. cause if i'm being honest, winning or losing doesn't matter, what matters most to me is spending time with each and every single one of you :3</p>
+
+                <p>whether it is through playing games that make our mental health deteriorate, cracking weird jokes, <del>pissing off darius,</del> or serenading mexican avocadoes, i look forward to getting to know you better.</p>
+
+                <p>i'm proud of you for how far you've come and i hope you win every battle you don't talk about.</p>
+            </div>
+
+        </div>
+
+    </body>
+</html>
+
